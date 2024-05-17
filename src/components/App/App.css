@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.Analytics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+.App-logo {
+  height: 15vmin;
+  margin: 20px auto;
+  pointer-events: none;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
